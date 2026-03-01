@@ -1,8 +1,16 @@
 {
   "name": "crypto-randomizer",
-  "version": "1.0.0",
-  "description": "Generates random strings of Number, Alphabets, AlphaNumeric and AlphaNumericSpecialChars- using the crypto function. Replaces the usage of `Math.random()` to generate random and unique string/number everytime and avoid generating pseudo-random number",
+  "version": "1.1.0",
+  "description": "Cryptographically secure random string/number generator using Node.js built-in crypto module. Replaces Math.random() with a bias-free, enterprise-grade solution.",
   "main": "index.js",
+  "types": "index.d.ts",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/irf-dev-toolkit/crypto-randomizer.git"
@@ -23,10 +31,13 @@
     "secure-random-string",
     "string-generator"
   ],
-  "author": "Irfan Rayachuru",
+  "author": "Irfan Rayachouri",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/irf-dev-toolkit/crypto-randomizer/issues"
   },
-  "homepage": "https://github.com/irf-dev-toolkit/crypto-randomizer#readme"
+  "homepage": "https://github.com/irf-dev-toolkit/crypto-randomizer#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
