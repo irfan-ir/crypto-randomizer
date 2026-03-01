@@ -4,6 +4,11 @@
   "description": "Cryptographically secure random string/number generator using Node.js built-in crypto module. Replaces Math.random() with a bias-free, enterprise-grade solution.",
   "main": "index.js",
   "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md"
+  ],
   "engines": {
     "node": ">=12.0.0"
   },
