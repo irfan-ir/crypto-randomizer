@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/irfan-ir/crypto-randomizer"
+    "url": "git+https://github.com/irfan-ir/crypto-randomizer.git"
   },
   "keywords": [
     "random",
